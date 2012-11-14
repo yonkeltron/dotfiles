@@ -38,9 +38,8 @@ autoload -U zrecompile
 alias present="impressive -T 500 -c disk --cachefile cache.cache --supersample -t Crossfade"
 
 #editor stuff
-
-export EDITOR=/usr/bin/emacsclient -t
-export VISUAL=/usr/bin/emacsclient -c
+export EDITOR="/usr/bin/emacsclient -t"
+export VISUAL="/usr/bin/emacsclient -c"
 
 # Ruby Tuning
 export RUBY_HEAP_MIN_SLOTS=500000
