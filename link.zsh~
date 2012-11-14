@@ -1,0 +1,7 @@
+#!/usr/bin/env zsh
+
+echo "Making symlinks for dotfiles in $HOME"
+
+function {
+    local dotfiles=(irbrc tmux.conf zshrc)
+}
